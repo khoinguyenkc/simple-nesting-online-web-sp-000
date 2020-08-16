@@ -90,10 +90,10 @@ def adding_matz
 		    :languages => ["LISP", "C"]
 		 }
 
-		 print programmer_hash[:yukihiro_matsumoto]
+		 programmer_hash[:yukihiro_matsumoto]
 
 end
-adding_matz()
+hi = adding_matz()
 def changing_alan
 	programmer_hash =
  		{
