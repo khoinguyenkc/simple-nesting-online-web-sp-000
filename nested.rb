@@ -94,6 +94,7 @@ def adding_matz
 
 end
 hi = adding_matz()
+print hi 
 def changing_alan
 	programmer_hash =
  		{
