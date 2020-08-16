@@ -93,8 +93,8 @@ def adding_matz
 
 
 end
-puts "hi"
-puts adding_matz()
+#puts "hi"
+#puts adding_matz()
 
 def changing_alan
 	programmer_hash =
@@ -137,4 +137,6 @@ def adding_to_dennis
         }
      }
 
+		 programmer_hash[:dennis_ritchie][:languages] << "Assembly"
+		 return programmer_hash[:dennis_ritchie]
 end
