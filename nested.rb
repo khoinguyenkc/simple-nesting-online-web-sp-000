@@ -113,9 +113,10 @@ def changing_alan
      }
      #change what Alan Kay is :known_for to the value of the alans_new_info variable.
      alans_new_info = "GUI"
-		 programmer_hash[:alan_kay][:known_for] 
+		 programmer_hash[:alan_kay][:known_for]
 
 end
+puts "landmark"
 duma = changing_alan()
 puts duma
 def adding_to_dennis
