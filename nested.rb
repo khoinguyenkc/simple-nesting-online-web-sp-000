@@ -120,6 +120,7 @@ end
 puts "landmark"
 duma = changing_alan()
 puts duma
+
 def adding_to_dennis
 	programmer_hash =
  		{
@@ -137,6 +138,6 @@ def adding_to_dennis
         }
      }
 
-		 programmer_hash[:dennis_ritchie][:languages] << "Assembly"
-		 return programmer_hash[:dennis_ritchie]
+		 puts programmer_hash[:dennis_ritchie][:languages] #8<< "Assembly"
+		 #return programmer_hash[:dennis_ritchie]
 end
