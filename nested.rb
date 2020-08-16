@@ -141,4 +141,5 @@ def adding_to_dennis
 		 puts programmer_hash[:dennis_ritchie][:languages] #8<< "Assembly"
 		 #return programmer_hash[:dennis_ritchie]
 end
+"landmark: add to dennis"
 adding_to_dennis()
