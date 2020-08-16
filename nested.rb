@@ -93,8 +93,8 @@ def adding_matz
 		 print programmer_hash
 
 end
-hi = adding_matz()
-print hi
+adding_matz()
+
 def changing_alan
 	programmer_hash =
  		{
